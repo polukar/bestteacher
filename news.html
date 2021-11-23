@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title> :: Frontend pack</title>
+    <!--
+    link(rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png")
+    link(rel="manifest" href="assets/site.webmanifest")
+    link(rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#ffffff")
+    link(rel="shortcut icon" href="assets/favicon.ico")
+    meta(name="msapplication-TileColor" content="#ffffff")
+    meta(name="msapplication-config" content="assets/browserconfig.xml")
+    meta(name="theme-color" content="#ffffff")
+    
+    -->
+    <meta name="description" content="Description">
+    <meta property="og:url" content="https://">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="twitter:title" content="title">
+    <meta property="og:description" content="description">
+    <meta property="twitter:description" content="description">
+    <meta property="og:image" content="assets/share.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1cfce894-81e9-424c-b7af-ccc21b4ca1b2&amp;lang=ru_RU" type="text/javascript"></script>
+  </head>
+  <body class="body">
+    <div class="header header-inner">
+      <div class="container --flex --jcsb --aicn">
+        <div class="header__logo"> <img src="./assets/img/logo.svg" alt=""></div>
+        <div class="header__right --flex --jcfe --aicn">
+              <div class="nav"> <a class="nav__link active" href="#">главная </a><a class="nav__link" href="#">участники </a><a class="nav__link" href="#">защита </a><a class="nav__link" href="#">жюри </a><a class="nav__link" href="#">НОВОСТИ </a></div><a class="enter btn --enter" href="#">вход для жюри</a>
+          <div class="burger --open">
+                <svg class="svgsprite _menu">
+                  <use xlink:href="assets/img/sprites/svgsprites.svg#menu"></use>
+                </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="mobile-menu">
+          <div class="burger --close">
+                <svg class="svgsprite _menu-close">
+                  <use xlink:href="assets/img/sprites/svgsprites.svg#menu-close"></use>
+                </svg>
+          </div>
+          <div class="container">
+                <div class="nav"> <a class="nav__link active" href="#">главная </a><a class="nav__link" href="#">участники </a><a class="nav__link" href="#">защита </a><a class="nav__link" href="#">жюри </a><a class="nav__link" href="#">НОВОСТИ </a></div><a class="enter btn --enter" href="#">вход для жюри</a><a class="btn --white" href="#">АВТОРИЗАЦИЯ</a>
+          </div>
+        </div>
+    <div class="content">
+      <div class="inner news">
+        <div class="container"> 
+          <h2 class="h2">НОВОСТИ</h2>
+          <div class="news__list"><a class="news__item news__item--main" href="#"> 
+              <div class="news__pic"><img src="./assets/img/news.jpg" alt=""></div>
+              <div class="news__description">
+                <div class="news__date">21 ноября 2021 г.</div>
+                <div class="news__info"> 
+                  <div class="news__title">Заголовок новости возможно даже длинный заголовок прямо в три строки вот какой молодец</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+              </div></a><a class="news__item" href="#"> 
+              <div class="news__pic"><img src="./assets/img/news.jpg" alt=""></div>
+              <div class="news__description">
+                <div class="news__date">21 ноября 2021 г.</div>
+                <div class="news__info"> 
+                  <div class="news__title">Заголовок новости возможно даже длинный заголовок прямо в три строки вот какой молодец</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+              </div></a><a class="news__item" href="#"> 
+              <div class="news__pic"><img src="./assets/img/news.jpg" alt=""></div>
+              <div class="news__description">
+                <div class="news__date">21 ноября 2021 г.</div>
+                <div class="news__info"> 
+                  <div class="news__title">Заголовок новости возможно даже длинный заголовок прямо в три строки вот какой молодец</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+              </div></a><a class="news__item" href="#"> 
+              <div class="news__pic"><img src="./assets/img/news.jpg" alt=""></div>
+              <div class="news__description">
+                <div class="news__date">21 ноября 2021 г.</div>
+                <div class="news__info"> 
+                  <div class="news__title">Заголовок новости возможно даже длинный заголовок прямо в три строки вот какой молодец</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+              </div></a><a class="news__item" href="#"> 
+              <div class="news__pic"><img src="./assets/img/news.jpg" alt=""></div>
+              <div class="news__description">
+                <div class="news__date">21 ноября 2021 г.</div>
+                <div class="news__info"> 
+                  <div class="news__title">Заголовок новости возможно даже длинный заголовок прямо в три строки вот какой молодец</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+              </div></a><a class="news__item" href="#"> 
+              <div class="news__pic"><img src="./assets/img/news.jpg" alt=""></div>
+              <div class="news__description">
+                <div class="news__date">21 ноября 2021 г.</div>
+                <div class="news__info"> 
+                  <div class="news__title">Заголовок новости возможно даже длинный заголовок прямо в три строки вот какой молодец</div>
+                  <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+              </div></a></div>
+          <div class="btn-center">
+            <button class="btn --blue">ПОКАЗАТЬ ЕЩЕ </button>
+          </div>
+        </div>
+      </div>
+          <div class="footer">
+            <div class="container">
+              <div class="footer__wrap"> 
+                <div class="copyright">2021 © Всероссийский центр развития художественного творчества и гуманитарных технологий</div>
+                <div class="contacts"><a href="tel:+74951234567">+7 (495) 123-45-67</a><a href="mailto:events@support.ru ">events@support.ru </a></div>
+                <div class="socilas"> <a class="social">
+                        <svg class="svgsprite _soc-1">
+                          <use xlink:href="assets/img/sprites/svgsprites.svg#soc-1"></use>
+                        </svg></a><a class="social">
+                        <svg class="svgsprite _soc-2">
+                          <use xlink:href="assets/img/sprites/svgsprites.svg#soc-2"></use>
+                        </svg></a><a class="social">
+                        <svg class="svgsprite _soc-3">
+                          <use xlink:href="assets/img/sprites/svgsprites.svg#soc-3"></use>
+                        </svg></a><a class="social">
+                        <svg class="svgsprite _soc-4">
+                          <use xlink:href="assets/img/sprites/svgsprites.svg#soc-4"></use>
+                        </svg></a></div>
+                <div class="political"><a href="#">Политика конфиденциальности и <br>обработки персональных данных</a></div>
+                <div class="link footer__lk --green"> <a href="#">ЛИЧНЫЙ КАБИНЕТ </a></div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="assets/js/vendors~main.bundle.js"></script>
+    <script src="assets/js/main.bundle.js?v=1.2.3"></script>
+  </body>
+</html>
